@@ -14,7 +14,6 @@ driver.implicitly_wait(10)
 ikkeLoggPå = driver.find_element_by_xpath("/html/body/ytd-app/ytd-popup-container/paper-dialog/yt-upsell-dialog-renderer/div/div[3]/div[1]/yt-button-renderer/a/paper-button").click()
 
 
-
 #find search bar
 searchBar = driver.find_element_by_name("search_query")
 
